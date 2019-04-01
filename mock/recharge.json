@@ -1,0 +1,32 @@
+{
+    "status": {
+        "isSucceed": true,
+        "errCode": -384677802986.7008,
+        "errMsg": "neLtcX"
+    },
+    "data": {
+        "paging": {
+            "total": 2885941454700544,
+            "pageSize": 7965800656797696,
+            "pageIndex": 4848833565556736
+        },
+        "itemList": [
+            {
+                "id": -531555868999680,
+                "rechargeType": 612046345338880,
+                "state": 5282005021360128,
+                "updateDate": 5602124226363392,
+                "amount": 508455766982.656,
+                "cardId": "EadBZMku",
+                "terminalId": "RaDdbifhKtu",
+                "orderNo": "uTx",
+                "organizationCode": "omfbBMC",
+                "organName": "ZL",
+                "sysSeqId": "vqutE",
+                "txnCode": "qdofDHF",
+                "txnTime": 5629512003878912,
+                "createDate": 2905406485561344
+            }
+        ]
+    }
+}

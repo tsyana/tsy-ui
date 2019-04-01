@@ -1,0 +1,38 @@
+{
+    "status": {
+        "isSucceed": false,
+        "errCode": 636925730671.8208,
+        "errMsg": "npBexAXwSnS"
+    },
+    "data": {
+        "paging": {
+            "total": 100,
+            "pageSize": 10,
+            "pageIndex": 1
+        },
+        "statistics": {
+            "total": -7915587103621120,
+            "totalOrderAmount": -855300705878.016,
+            "totalPayAccountAmount": 883029569647.4113,
+            "totalPayCouponAmount": -733549761344.3073
+        },
+        "itemList": [
+            {
+                "code": "vCevtYwFuO",
+                "name": "QhfsyWsJ",
+                "transactionTime": "2017-01-09",
+                "machineNumber": "G",
+                "cardId": "G",
+                "orderAmount": -3265309284.7616,
+                "payAccountAmount": 684027862319.104,
+                "payCouponAmount": 153957047468.032,
+                "discountRate": 7356879831302144,
+                "discountAmount": 586673680495.4113,
+                "discount": 5094441454927872,
+                "marketingAmount": 534494067870.9248,
+                "operatorCode": -2742977604616192,
+                "sourceOrderNumber": "CtyyWBfXn"
+            }
+        ]
+    }
+}

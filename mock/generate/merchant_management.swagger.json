@@ -1,0 +1,281 @@
+{
+    "/consume/detail": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -461567847248.6912,
+                        "errMsg": "DGCC"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 10,
+                            "pageSize": 2,
+                            "pageIndex": 1
+                        },
+                        "statistics": {
+                            "total": -6859731285049344,
+                            "totalOrderAmount": -730425022480.384,
+                            "totalPayAccountAmount": 881938455016.2432,
+                            "totalPayCouponAmount": -582111129187.1232
+                        },
+                        "itemList": [
+                            {
+                                "code": "cCyKYg",
+                                "name": "D",
+                                "transactionTime": "2017-01-10",
+                                "machineNumber": "cXLnMkjy",
+                                "cardId": "gFdmNgjibom",
+                                "orderAmount": -838816828175.1552,
+                                "payAccountAmount": -278530696518.0416,
+                                "payCouponAmount": 36859870707.712,
+                                "discountRate": 1502937524207616,
+                                "discountAmount": 37379102893.6704,
+                                "discount": -6592317293068288,
+                                "marketingAmount": -885857679782.7072,
+                                "operatorCode": 1559890191450112,
+                                "sourceOrderNumber": "pYcsD"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/consume/exportdetail": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/consume/summary": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 725735433253.6832,
+                        "errMsg": "lGpzhMLIc"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 6110241573830656,
+                            "pageSize": -384297735290880,
+                            "pageIndex": 3304052695760896
+                        },
+                        "statistics": {
+                            "total": 7958508569886720,
+                            "totalOrderAmount": 210652273783.6032,
+                            "totalPayAccountAmount": 16126276796.416,
+                            "totalPayCouponAmount": 299846136024.2688
+                        },
+                        "itemList": [
+                            {
+                                "code": "IIxDIPD",
+                                "name": "V",
+                                "codeTotal": -3905470632820736,
+                                "orderAmount": -212678651517.3376,
+                                "amount": -721413981444.5056,
+                                "payCouponAmount": -653307335304.8064,
+                                "discountAmount": 491294510022.656,
+                                "marketingAmount": 45797593212.5184
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/consume/exportsummary": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/recharge/detail": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -110128462718.5664,
+                        "errMsg": "jv"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": -4762296010145792,
+                            "pageSize": -4095514861633536,
+                            "pageIndex": -7093475182903296
+                        },
+                        "statistics": {
+                            "total": 6668754557599744,
+                            "totalAmount": -12819661586.432
+                        },
+                        "itemList": [
+                            {
+                                "code": "STEx",
+                                "name": "RCimEr",
+                                "transactionTime": "xNRHKsx",
+                                "machinenumber": "hpnalUm",
+                                "cardId": "fWaRsbeLrS",
+                                "amount": "TcC",
+                                "operatorCode": "CnbYKagVpj",
+                                "sourceOrderNumber": "qvQ",
+                                "paymentMethod": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/recharge/exportdetail": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/recharge/summary": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -617953055735.808,
+                        "errMsg": "byIpQy"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": -1884981743845376,
+                            "pageSize": -6731936437370880,
+                            "pageIndex": -8823425585905664
+                        },
+                        "statistics": {
+                            "total": -1390810637533184,
+                            "totalAmount": 435632511909.888
+                        },
+                        "itemList": [
+                            {
+                                "code": "fAwJc",
+                                "name": "jUzg",
+                                "paymentMethod": 1,
+                                "totalCharges": -3869012756791296,
+                                "totalChargesAmount": -699572309039.5135
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/recharge/exportsummary": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/card/detail": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 829342327871.8976,
+                        "errMsg": "lTrEF"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 4938762656153600,
+                            "pageSize": 6372258205401088,
+                            "pageIndex": -5686120041938944
+                        },
+                        "statistics": {
+                            "total": 8186525489561600
+                        },
+                        "itemList": [
+                            {
+                                "code": "TK",
+                                "name": "sA",
+                                "machinenumber": "HsHKVXv",
+                                "saleDateTime": "SFYDLvl",
+                                "machineNumber": "urfEneDevS",
+                                "cardId": "ZpIExDOFu"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/card/exportdetail": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/card/summary": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": 571523701355.3152,
+                        "errMsg": "DqzEp"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": -6384114257100800,
+                            "pageSize": 2488514105049088,
+                            "pageIndex": 4401161381609472
+                        },
+                        "statistics": {
+                            "total": 7271876380327936
+                        },
+                        "itemList": [
+                            {
+                                "code": "GvP",
+                                "name": "UubOKeuM",
+                                "sum": -6359742330961920
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/card/exportsummary": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/settlement": {
+        "get": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 351205477842.944,
+                        "errMsg": "BN"
+                    },
+                    "data": {
+                        "unit": 3283330720071680,
+                        "payment": 6487207808335872,
+                        "lastModifyTime": "KawOVNHmY",
+                        "applied": true
+                    }
+                }
+            }
+        },
+        "put": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -27320864106.0864,
+                        "errMsg": "PoZcQb"
+                    },
+                    "data": {
+                        "lastModifyTime": "TkheluU",
+                        "applied": false
+                    }
+                }
+            }
+        }
+    }
+}

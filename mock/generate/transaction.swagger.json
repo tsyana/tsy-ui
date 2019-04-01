@@ -1,0 +1,344 @@
+{
+    "/KltTransaction/recharge": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 824778920925.5936,
+                        "errMsg": "fBY"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 10,
+                            "pageSize": 2,
+                            "pageIndex": 1
+                        },
+                        "itemList": [
+                            {
+                                "id": 3290154840096768,
+                                "rechargeType": 6450921567420416,
+                                "state": 8050732364201984,
+                                "updateDate": 2878216922464256,
+                                "amount": 381823150037.4016,
+                                "cardId": "z",
+                                "terminalId": "fZqD",
+                                "orderNo": "h",
+                                "organizationCode": "ynrzdYZLf",
+                                "organName": "ZiLnKMyLa",
+                                "sysSeqId": "KJnDPibMQ",
+                                "txnCode": "bfgcsTasOZn",
+                                "txnTime": 2016133188157440,
+                                "createDate": 1915089133240320
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/KltTransaction/recharge/export": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/KltTransaction/consumption/": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 717018870946.2017,
+                        "errMsg": "qAArNO"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 8830370342502400,
+                            "pageSize": 2137261600669696,
+                            "pageIndex": 4342252243517440
+                        },
+                        "itemList": [
+                            {
+                                "id": "ZlM",
+                                "transactionDate": "2017-01-10",
+                                "orderNo": "PnpqtEUdI",
+                                "cardId": "TVNmbwQrJuh",
+                                "amount": "WoVvWZFW",
+                                "merName": "nkXUjoR",
+                                "orgName": "pjPM",
+                                "orgNo": "fJyYIsUAV",
+                                "terminalId": 5621248163840,
+                                "transactionSysNo": "toL",
+                                "tranType": 2017958171770880,
+                                "state": -6401199767027712,
+                                "orderSource": "AggD",
+                                "secondKillCouponName": "nborocun"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/KltTransaction/consumption/export": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/KltTransaction/couponconsumption": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 325968176611.328,
+                        "errMsg": "tiLOlJZ"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": -3278981180686336,
+                            "pageSize": -7132236658769920,
+                            "pageIndex": 2380220346662912
+                        },
+                        "statistics": {
+                            "total": -5535123021758464
+                        },
+                        "itemList": [
+                            {
+                                "createDate": "bQuTsULA",
+                                "id": "b",
+                                "amount": 188117160034.304,
+                                "cardId": "hSCOvzCa",
+                                "codeAmount": 560603332608,
+                                "codeName": "OWXRW",
+                                "differenceAmount": 869420192759.808,
+                                "terminalId": "xHX",
+                                "merName": "tVoQMLztz",
+                                "orderAmount": -841671805763.584,
+                                "orderNo": "IMa",
+                                "organName": "pWNlkI",
+                                "organCode": "xMeDMBt",
+                                "redeemAmount": 673307811014.2465,
+                                "redeemTime": "GkexDqg"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/KltTransaction/couponconsumption/export": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/KltTransaction/merchantSettleDetails": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 871731446782.3616,
+                        "errMsg": "XyE"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 7549043018301440,
+                            "pageSize": -3883470040334336,
+                            "pageIndex": -5401523165069312
+                        },
+                        "statistics": {
+                            "total": -7470386199396352
+                        },
+                        "itemList": [
+                            {
+                                "amount": 299270381397.6064,
+                                "cardId": "o",
+                                "cardPayAmount": -631677216882.688,
+                                "cardPaySettleAmount": 318533849527.0912,
+                                "couponAmount": -748002314551.296,
+                                "couponFaceAmount": 262418044498.7392,
+                                "couponUsedSettleAmount": -772735148385.8944,
+                                "feeRate": 103802866342.2976,
+                                "marketingSettleAmount": -193511377233.5104,
+                                "merchantName": "YFWdhTo",
+                                "orderNo": "Vo",
+                                "orderSource": "ocdpTuvc",
+                                "organCode": "TtiatotH",
+                                "organName": "X",
+                                "protocolDiscount": 613580154496.6144,
+                                "rebateAmount": 789766269933.9775,
+                                "rebateRate": -429476022740.5824,
+                                "terminalId": "uw",
+                                "totalPaySettleAmount1": 288747527392.4608,
+                                "totalPaySettleAmount2": 138956024001.3312,
+                                "transactionDate": "cK",
+                                "transactionType": "fi",
+                                "transactionSysNo": "xcjE"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/KltTransaction/merchantSettleDetails/exports": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/KltTransaction/publicPays": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -824623295050.5472,
+                        "errMsg": "XwYQtewpi"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": -6690537297936384,
+                            "pageSize": 7173242754170880,
+                            "pageIndex": -2968830334730240
+                        },
+                        "itemList": [
+                            {
+                                "id": "VYOK",
+                                "orderNo": "anTPfnT",
+                                "cardId": "wo",
+                                "payType": "REywr",
+                                "amount": -707917897741.1072,
+                                "paidAmount": 812655994050.9696,
+                                "discountAmount": -620654380869.2224,
+                                "totalAmount": -723131758647.7056,
+                                "payItem": "xkRHUEtra",
+                                "channel": "K",
+                                "companyName": "syuQtC",
+                                "provinceName": "qhM",
+                                "cityName": "OQoAi",
+                                "updateDate": "Po",
+                                "createDate": "FnAwEmcnv",
+                                "txnCode": "qLeywtyUe"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "delete": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -445871652706.7136,
+                        "errMsg": "lm"
+                    },
+                    "data": {
+                        "success": true
+                    }
+                }
+            }
+        }
+    },
+    "/KltTransaction/publicPays/export": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/KltTransaction/phonePays/": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -293208645749.9648,
+                        "errMsg": "wCHIniiZP"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 7699551653724160,
+                            "pageSize": -7943947305353216,
+                            "pageIndex": 5434517028339712
+                        },
+                        "itemList": [
+                            {
+                                "id": "eFELLvQ",
+                                "orderNo": "XncAx",
+                                "cardId": "PNbil",
+                                "payType": "ZogPDhmMZ",
+                                "amount": 178077970097.7664,
+                                "phoneNumber": 286173062338.9696,
+                                "payItem": "Bb",
+                                "updateDate": "tKBaR",
+                                "createDate": "RAscCzEnv"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "delete": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 655285572914.3809,
+                        "errMsg": "aV"
+                    },
+                    "data": {
+                        "success": false
+                    }
+                }
+            }
+        }
+    },
+    "/KltTransaction/phonePays/export": {
+        "post": {
+            "responses": {}
+        }
+    },
+    "/KltTransaction/tickets/": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": 242877652480.8192,
+                        "errMsg": "w"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 6909380779835392,
+                            "pageSize": 7780976419667968,
+                            "pageIndex": 101056847544320
+                        },
+                        "itemList": [
+                            {
+                                "id": "a",
+                                "transactionDate": "tkp",
+                                "orderNo": "wZeQaxIdOhO",
+                                "cardId": "vRbiFnV",
+                                "amount": -730356171302.5024,
+                                "ticketPrice": -100110707353.1904,
+                                "insuranceFee": "sPzhqdb",
+                                "serviceFee": "RbwoSJB",
+                                "merchantName": "kbxxC",
+                                "organCode": "xjiUirA",
+                                "organName": "bo",
+                                "transactionNo": "ZSy",
+                                "transactionType": "RwAMYoUiHMc",
+                                "orderStatus": "sLzBwyBp"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/KltTransaction/tickets/export": {
+        "post": {
+            "responses": {}
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "data": [{
+        "id": 1,
+        "name":"apple",
+        "price": "￥10",
+        "counter": 19,
+        "detail": "test"
+    }, {
+        "id": 2,
+        "name":"orange",
+        "price": "￥10",
+        "counter": 19,
+        "detail": "test"
+    }, {
+        "id": 3,
+        "name":"banana",
+        "price": "￥10",
+        "counter": 19,
+        "detail": "test"
+    }, {
+        "id": 4,
+        "name":"watermelon",
+        "price": "￥10",
+        "counter": 19,
+        "detail": "test"
+    }]
+}

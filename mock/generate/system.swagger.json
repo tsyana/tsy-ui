@@ -1,0 +1,447 @@
+{
+    "/login": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -423997341905.7152,
+                        "errMsg": "qThUxZOGW"
+                    },
+                    "data": {
+                        "sessionToken": "XZXi",
+                        "userId": "Nj"
+                    }
+                }
+            }
+        }
+    },
+    "/users/search": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -178002396289.4336,
+                        "errMsg": "rTDjny"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 10,
+                            "pageSize": 2,
+                            "pageIndex": 1
+                        },
+                        "statistics": {
+                            "total": 6235809543880704
+                        },
+                        "userList": [
+                            {
+                                "userId": "OBD",
+                                "userName": "Smgfebn",
+                                "address": "ah",
+                                "confirmPassword": "DgU",
+                                "createDate": 3556745385345024,
+                                "departmentId": "WJZphF",
+                                "departmentName": "XpPvG",
+                                "description": "rGApIry",
+                                "editablePassword": false,
+                                "email": "AvguqnXhUa",
+                                "id": "DEprgILL",
+                                "isActive": true,
+                                "isSystemAccount": true,
+                                "lastLoginDate": 1384443826667520,
+                                "password": "EnpvJVYGgEt",
+                                "phone": "TcBCwtkgpmO",
+                                "roleNames": "QoLYGrqRuoF",
+                                "updateDate": "KVDFJDzJKG",
+                                "roles": [
+                                    {
+                                        "createDate": -4166576894902272,
+                                        "description": "OYRhoy",
+                                        "functions": "bIbCod",
+                                        "id": "lZHzhb",
+                                        "isActive": true,
+                                        "roleName": "IF",
+                                        "updateDate": -6253146246479872
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/users": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": 294572264731.4432,
+                        "errMsg": "VXAp"
+                    },
+                    "data": {
+                        "success": false
+                    }
+                }
+            }
+        }
+    },
+    "/users/{userId}": {
+        "get": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -381597862644.9408,
+                        "errMsg": "doCA"
+                    },
+                    "data": {
+                        "userName": "xdQy",
+                        "avatar": "Dv"
+                    }
+                }
+            }
+        },
+        "put": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -167934927097.0368,
+                        "errMsg": "jrfc"
+                    },
+                    "data": {
+                        "success": false
+                    }
+                }
+            }
+        },
+        "delete": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -365216165317.8368,
+                        "errMsg": "VHssydo"
+                    },
+                    "data": {
+                        "success": true
+                    }
+                }
+            }
+        }
+    },
+    "/users/{userId}/menus": {
+        "get": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": 561159199942.2465,
+                        "errMsg": "srWMOR"
+                    },
+                    "data": {
+                        "itemList": [
+                            {
+                                "id": "ChE",
+                                "nodeName": "bpUxq",
+                                "url": "IiZGS",
+                                "display": true,
+                                "displayOrder": -440254121115.648,
+                                "parentNodeId": "KUlpJSAmyGf",
+                                "hasSubMenu": true,
+                                "subMenus": [
+                                    {
+                                        "id": "TgylsNcj",
+                                        "nodeName": "ZIcONxPDD",
+                                        "url": "KbLG",
+                                        "display": false,
+                                        "displayOrder": 661139850317.0048,
+                                        "hasSubMenu": true,
+                                        "parentNodeId": "J"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/users/{userId}/authorities": {
+        "get": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 233095974354.944,
+                        "errMsg": "ucRtWhD"
+                    },
+                    "data": {
+                        "list": [
+                            {
+                                "selected": false,
+                                "functionId": "mnhkntUxIHs",
+                                "functionName": "Dh",
+                                "functionPermission": -6130406113935360
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/users/{userId}/password": {
+        "put": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": 717420130782.4128,
+                        "errMsg": "zgrW"
+                    },
+                    "data": {
+                        "success": false
+                    }
+                }
+            }
+        }
+    },
+    "/menus": {
+        "get": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -437300685176.832,
+                        "errMsg": "NxmtVfNnh"
+                    },
+                    "data": [
+                        {
+                            "id": "xr",
+                            "nodeName": "qPEBSkY",
+                            "url": "lNqlmudona",
+                            "cssClass": "ZfRBcuQwrjh",
+                            "display": true,
+                            "displayOrder": 353117332203.1104,
+                            "functionCode": "cDHQswP",
+                            "parentNodeId": "uTUIMZ",
+                            "createDate": "B",
+                            "upDateDate": "WrQok",
+                            "description": "qiVQ",
+                            "hasSubMenu": false,
+                            "subMenus": [
+                                {
+                                    "id": "X",
+                                    "nodeName": "msp",
+                                    "url": "ewjeZFft",
+                                    "cssClass": "UYE",
+                                    "display": true,
+                                    "displayOrder": 887307770213.1711,
+                                    "functionCode": "zhpdTjw",
+                                    "parentNodeId": "pOX",
+                                    "createDate": "psi",
+                                    "upDateDate": "VPzjT",
+                                    "description": "B",
+                                    "hasSubMenu": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "/menus/{menuId}": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -731302441097.6256,
+                        "errMsg": "waHChVvPb"
+                    },
+                    "data": {
+                        "success": false
+                    }
+                }
+            }
+        },
+        "put": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 874812365235.8145,
+                        "errMsg": "PlnuO"
+                    },
+                    "data": {
+                        "success": false
+                    }
+                }
+            }
+        },
+        "delete": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": 735433987404.5952,
+                        "errMsg": "Jbk"
+                    },
+                    "data": {
+                        "success": false
+                    }
+                }
+            }
+        }
+    },
+    "/roles": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -303264590253.2608,
+                        "errMsg": "KmHIXBpRaQH"
+                    },
+                    "data": {
+                        "id": "yPmGLOZKaLM",
+                        "createDate": "UahT"
+                    }
+                }
+            }
+        }
+    },
+    "/roles/{id}": {
+        "put": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -353554535966.3104,
+                        "errMsg": "SyU"
+                    },
+                    "data": {
+                        "updateDate": 4309865207955456
+                    }
+                }
+            }
+        },
+        "delete": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -163915882928.5376,
+                        "errMsg": "ydccjZygpnE"
+                    },
+                    "data": {
+                        "id": "ETVY"
+                    }
+                }
+            }
+        }
+    },
+    "/roles/search": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": true,
+                        "errCode": -54163897162.1376,
+                        "errMsg": "wJkGbzWxgI"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": 1535974211321856,
+                            "pageSize": -1516344356896768,
+                            "pageIndex": 6588778172907520
+                        },
+                        "itemList": [
+                            {
+                                "id": "iaZ",
+                                "roleName": "vaz",
+                                "description": "YPmxWxYYv",
+                                "isActive": true,
+                                "createDate": 4921790958665728,
+                                "updateDate": 2264468927021056
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "/roles/{roleId}/permissions": {
+        "get": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": 693593800966.144,
+                        "errMsg": "tOSA"
+                    },
+                    "data": {
+                        "itemList": [
+                            {
+                                "selected": false,
+                                "functionId": "lmTIFg",
+                                "functionName": "vXhkTXDpS",
+                                "functionPermission": 258395982528512
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "put": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -868613131914.4448,
+                        "errMsg": "mLp"
+                    },
+                    "data": {
+                        "status": "GBZAnfscV"
+                    }
+                }
+            }
+        }
+    },
+    "/logs/search": {
+        "post": {
+            "responses": {
+                "200": {
+                    "status": {
+                        "isSucceed": false,
+                        "errCode": -578433142331.8016,
+                        "errMsg": "GTHSPS"
+                    },
+                    "data": {
+                        "paging": {
+                            "total": -2023824337928192,
+                            "pageSize": 8806071212703744,
+                            "pageIndex": 7726087106723840
+                        },
+                        "itemList": [
+                            {
+                                "id": "qnf",
+                                "userName": "PyjNb",
+                                "ipAddress": "XfKWmmiUWOg",
+                                "operationDate": -5051957492318208,
+                                "createDate": -6718698316365824,
+                                "name": "zZqFO",
+                                "content": "tApxEbg",
+                                "description": "QwcwSzY"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

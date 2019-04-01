@@ -10,6 +10,8 @@
 FloatLabel 浮动标签
 
 ## directives:
-Tooltip 自适应文本tooltip
+- Tooltip 自适应文本tooltip
+
+
 
 文档请戳

@@ -7,7 +7,7 @@
 - Affix 图钉
 - BackTop 回到顶部
 - Drawer 抽屉
-FloatLabel 浮动标签
+- FloatLabel 浮动标签
 
 ## directives:
 - Tooltip 自适应文本tooltip

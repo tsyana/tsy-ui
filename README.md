@@ -6,7 +6,7 @@
 ## components:
 - Affix 图钉
 - BackTop 回到顶部
-- Drawer 抽屉
+- Scrollspy 滚动监听
 - FloatLabel 浮动标签
 
 ## directives:
@@ -14,6 +14,6 @@
 
 ## todo:
 
-- Scrollspy
+- Drawer
 
 文档请戳[这里](http://45.77.229.221/quick-start)

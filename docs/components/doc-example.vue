@@ -11,7 +11,7 @@
             </div>
         </template>
         <template v-else>
-            <iframe class="iframe__wrapper" :src="'/' + src" frameborder="0" ></iframe>
+            <iframe class="iframe__wrapper" :height="height + 'px'" :src="'/' + src" frameborder="0" ></iframe>
         </template>
     </div>
 </template>
@@ -30,6 +30,10 @@
             title: String,
             file: String,
             src: String,
+            height: {
+                type: String,
+                default: 'auto'
+            },
             data: {
                 type: Object,
                 default() {

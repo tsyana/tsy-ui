@@ -24,6 +24,12 @@
                 <el-menu-item index="components-2">floatlabel</el-menu-item>
             </el-menu-item-group>
         </router-link>
+
+        <router-link to="/components/scrollspy">
+            <el-menu-item-group>
+                <el-menu-item index="components-3">scrollspy</el-menu-item>
+            </el-menu-item-group>
+        </router-link>
     </el-submenu>
     <el-submenu index="directives">
         <template slot="title">

@@ -15,6 +15,6 @@
 
 ## todo:
 
-- placeholde
+- placeholder
 
 文档请戳[这里](http://45.77.229.221/quick-start)

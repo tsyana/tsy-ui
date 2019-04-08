@@ -8,12 +8,13 @@
 - BackTop 回到顶部
 - Scrollspy 滚动监听
 - FloatLabel 浮动标签
+- Drawer 抽屉
 
 ## directives:
 - Tooltip 自适应文本tooltip
 
 ## todo:
 
-- Drawer
+- placeholde
 
 文档请戳[这里](http://45.77.229.221/quick-start)

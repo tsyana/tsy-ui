@@ -21,7 +21,10 @@ export default {
 		const elOffset = this.getOffset(this.$el);
 		const windowHeight = window.innerHeight;
 		if (elOffset.top < windowHeight) {
-			this.affix = true
+			if ((!this.repeat && this.firstFlag) || this.repeat) {
+				this.affix = true
+				this.firstFlag = false
+			}
 		}
 		if (this.elementName == 'window') {
 			on(window, 'scroll', this.handleScroll);
@@ -43,11 +46,16 @@ export default {
 		styles: {
 			type: String,
 			default: ''
+		},
+		repeat: {
+			type: Boolean,
+			default: true
 		}
 	},
 	data() {
 		return {
-			affix: false
+			affix: false,
+			firstFlag: true
 		}
 	},
 	beforeDestroy () {
@@ -92,7 +100,10 @@ export default {
 			const windowHeight = window.innerHeight;
 			const elHeight = this.$el.getElementsByTagName('div')[0].offsetHeight;
 			if (scrollTop > (elOffset.top - windowHeight) && !affix && scrollTop < (elOffset.top + elHeight)) {
-				this.affix = true
+				if ((!this.repeat && this.firstFlag) || this.repeat) {
+					this.affix = true
+					this.firstFlag = false
+				}
 				this.$emit('inview', true)
 			} else if (scrollTop > (elOffset.top + elHeight) && affix) {
 				this.affix = false

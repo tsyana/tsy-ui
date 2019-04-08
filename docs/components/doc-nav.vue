@@ -19,15 +19,21 @@
             </el-menu-item-group>
         </router-link>
 
+        <router-link to="/components/drawer">
+            <el-menu-item-group>
+                <el-menu-item index="components-2">drawer</el-menu-item>
+            </el-menu-item-group>
+        </router-link>
+
         <router-link to="/components/floatlabel">
             <el-menu-item-group>
-                <el-menu-item index="components-2">floatlabel</el-menu-item>
+                <el-menu-item index="components-3">floatlabel</el-menu-item>
             </el-menu-item-group>
         </router-link>
 
         <router-link to="/components/scrollspy">
             <el-menu-item-group>
-                <el-menu-item index="components-3">scrollspy</el-menu-item>
+                <el-menu-item index="components-4">scrollspy</el-menu-item>
             </el-menu-item-group>
         </router-link>
     </el-submenu>

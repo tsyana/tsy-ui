@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div v-if="api.props">
+      <div v-if="api.props" style="margin-top: 20px;">
         <h3>Props</h3>
         <el-table
           :data="api.props"
@@ -25,7 +25,7 @@
           </el-table-column>
         </el-table>
       </div>
-      <div v-if="api.events">
+      <div v-if="api.events"  style="margin-top: 20px;">
         <h3>Events</h3>
         <el-table
           :data="api.events"
@@ -38,6 +38,22 @@
           <el-table-column
             prop="paramaters"
             label="参数"
+            >
+          </el-table-column>
+          <el-table-column
+            prop="info"
+            label="说明">
+          </el-table-column>
+        </el-table>
+      </div>
+      <div v-if="api.slots"  style="margin-top: 20px;">
+        <h3>Slots</h3>
+        <el-table
+          :data="api.events"
+          style="width: 100%">
+          <el-table-column
+            prop="name"
+            label="名称"
             >
           </el-table-column>
           <el-table-column

@@ -1,6 +1,6 @@
 <template>
     <div class="scrollspy-demo">
-		<scrollspy :inviewClass="`animated ${item}`" :styles="styles" :key="item" v-for="(item, index) in classes">
+		<scrollspy :inviewClass="`animated ${item}`" :styles="styles" :key="item" v-for="(item, index) in classes" :repeat="false">
 			<div class="part" :class="'part-' + (index + 1)">
 				part {{ index + 1 }}
 			</div>

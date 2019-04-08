@@ -4,6 +4,12 @@ export default {
 	description: '在滚动页面时，触发一些事件及动画。',
 	props: [
 		{
+			content: 'repeat',
+			type: 'boolean',
+			default: 'true',
+			info: '元素每次出现在视窗中时，都应用这个类。'
+		},
+		{
 			content: 'elementName',
 			type: 'string',
 			default: 'window',
